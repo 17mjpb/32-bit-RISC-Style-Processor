@@ -1,0 +1,78 @@
+library ieee;
+use ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+entity shifter is
+	port (
+		shift_in : in std_logic_vector (31 downto 0);
+		n : in std_logic_vector(4 downto 0);
+		roll_in : in std_logic;
+		sel : in std_logic_vector(2 downto 0);
+		shift_out : out std_logic_vector (31 downto 0);
+		roll_out : out std_logic
+	);
+end entity;
+
+architecture behavior of shifter is
+
+signal shifted : std_logic_vector(31 downto 0);
+signal n_temp : integer;
+signal roll_bit : std_logic;
+
+begin
+n_temp <= to_integer(unsigned(n));
+shifted <= shift_in;
+	process(sel)
+		begin
+			if (sel = "000") then -- Arithmetic shift left
+				inst1 : for i in 0 to n_temp loop
+					roll_bit <= shifted(31);
+					for j in 0 to 30 loop
+						shifted(j+1) <= shifted(j);
+					end loop;
+					shifted(0) <= '0';
+				end loop;
+			elsif (sel = "001") then -- Arithmetic shift right
+				inst2 : for i in 0 to n_temp loop
+					roll_bit <= shifted(0);
+					for j in 0 to 30 loop
+						shifted(j) <= shifted(j+1);
+					end loop;
+				end loop;
+			elsif (sel = "010") then -- Roll over left
+				inst3 : for i in 0 to n_temp loop
+					roll_bit <= shifted(31);
+					for j in 0 to 30 loop
+						shifted(j+1) <= shifted(j);
+					end loop;
+					shifted(0) <= roll_bit;
+				end loop;
+			elsif (sel = "011") then -- Roll over right
+				inst4 : for i in 0 to n_temp loop
+					roll_bit <= shifted(0);
+					for j in 0 to 30 loop
+						shifted(j) <= shifted(j+1);
+					end loop;
+					shifted(32) <= roll_bit;
+				end loop;
+			elsif (sel = "100") then -- Logical shift left with input
+				inst5 : for i in 0 to n_temp loop
+					roll_bit <= shifted(31);
+					for j in 0 to 30 loop
+						shifted(j+1) <= shifted(j);
+					end loop;
+					shifted(0) <= roll_in;
+				end loop;
+			elsif (sel = "101") then -- Logical shift right with input
+				inst6 : for i in 0 to n_temp loop
+					roll_bit <= shifted(0);
+					for j in 0 to 30 loop
+						shifted(j) <= shifted(j+1);
+					end loop;
+					shifted(31) <= roll_in;
+				end loop;
+			end if;
+			shift_out <= shifted;
+			roll_out <= roll_bit;
+	end process;
+end architecture;

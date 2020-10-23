@@ -1,0 +1,22 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+ 
+entity alu_addr_encoder is
+ port(
+	x0 : in std_logic := '0';
+	x1 : in std_logic := '0';
+	x2 : in std_logic := '0';
+	x3 : in std_logic := '0';
+	x4 : in std_logic := '0';
+	x5 : in std_logic := '0';
+	x6 : in std_logic := '0';
+	x7 : in std_logic := '0';
+	x8 : in std_logic := '0';
+	x9 : in std_logic := '0';
+	x10 : in std_logic := '0';
+	x11 : in std_logic := '0';
+	x12 : in std_logic := '0';
+	x13 : in std_logic := '0';
+	x14 : in std_logic := '0';
+	x15 : in std_logic := '0';
+	x16 : in std_logic := '0';

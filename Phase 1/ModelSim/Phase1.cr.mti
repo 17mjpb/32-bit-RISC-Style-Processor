@@ -1,0 +1,290 @@
+{D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_or.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_or.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_or
+-- Compiling architecture tb_or_arch of tb_or
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/negator.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/negator.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity negator
+-- Compiling architecture behavior of negator
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mar.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mar.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mar
+-- Compiling architecture bdf_type of mar
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_neg.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_neg.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_neg
+-- Compiling architecture tb_neg_arch of tb_neg
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_sub.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_sub.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_sub
+-- Compiling architecture tb_sub_arch of tb_sub
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/y.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/y.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity y
+-- Compiling architecture bdf_type of y
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_and.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_and.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_and
+-- Compiling architecture tb_and_arch of tb_and
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/z.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/z.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity z
+-- Compiling architecture bdf_type of z
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/bidirectional_bus.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/bidirectional_bus.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bidirectional_bus
+-- Compiling architecture bdf_type of bidirectional_bus
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/lo.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/lo.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lo
+-- Compiling architecture bdf_type of lo
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu_addr_encoder.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu_addr_encoder.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alu_addr_encoder
+-- Compiling architecture behavior of alu_addr_encoder
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_rol.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_rol.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_rol
+-- Compiling architecture tb_rol_arch of tb_rol
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux2to1_32.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux2to1_32.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mux2to1_32
+-- Compiling architecture mux2to1_32_arch of mux2to1_32
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/incrementer.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/incrementer.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity incrementer
+-- Compiling architecture behavior of incrementer
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/encoder_32to5.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/encoder_32to5.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity encoder_32to5
+-- Compiling architecture behavior of encoder_32to5
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_mul.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_mul.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_mul
+-- Compiling architecture tb_mul_arch of tb_mul
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/shifter.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/shifter.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity shifter
+-- Compiling architecture behavior of shifter
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shl.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shl.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_shl
+-- Compiling architecture tb_shl_arch of tb_shl
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/datapath_tb.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/datapath_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity datapath_tb
+-- Compiling architecture datapath_tb_arch of datapath_tb
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/multiplier.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/multiplier.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity multiplier
+-- Compiling architecture behaviour of multiplier
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/divider.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/divider.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity divider
+-- Compiling architecture behaviour of divider
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/gp.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/gp.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity gp
+-- Compiling architecture bdf_type of gp
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_not.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_not.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_not
+-- Compiling architecture tb_not_arch of tb_not
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_add.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_add.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_add
+-- Compiling architecture tb_add_arch of tb_add
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/cl_addr.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/cl_addr.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity cl_addr
+-- Compiling architecture behavior of cl_addr
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/hi.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/hi.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity hi
+-- Compiling architecture bdf_type of hi
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_div.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_div.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_div
+-- Compiling architecture tb_div_arch of tb_div
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_ror.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_ror.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_ror
+-- Compiling architecture tb_ror_arch of tb_ror
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alu
+-- Compiling architecture behavior of alu
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/reg32.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/reg32.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg32
+-- Compiling architecture behavior of reg32
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mdr.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mdr.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mdr
+-- Compiling architecture bdf_type of mdr
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shr.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shr.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_shr
+-- Compiling architecture tb_shr_arch of tb_shr
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux32to1_32.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux32to1_32.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mux32to1_32
+-- Compiling architecture mux32to1_32_arch of mux32to1_32
+
+} {} {}} {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/datapath.vhd} {1 {vcom -work work -2002 -explicit {D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/datapath.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity datapath
+-- Compiling architecture bdf_type of datapath
+
+} {} {}}

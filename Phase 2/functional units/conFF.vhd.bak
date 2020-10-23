@@ -1,0 +1,162 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity select_and_encode is
+	port (
+		IRin : in std_logic_vector(31 downto 0);
+		Gra : in std_logic;
+		Grb : in std_logic;
+		Grc : in std_logic;
+		Rin : in std_logic;
+		Rout : in std_logic;
+		BAout : in std_logic;
+		R0out : out std_logic;
+		R1out : out std_logic;
+		R2out : out std_logic;
+		R3out : out std_logic;
+		R4out : out std_logic;
+		R5out : out std_logic;
+		R6out : out std_logic;
+		R7out : out std_logic;
+		R8out : out std_logic;
+		R9out : out std_logic;
+		R10out : out std_logic;
+		R11out : out std_logic;
+		R12out : out std_logic;
+		R13out : out std_logic;
+		R14out : out std_logic;
+		R15out : out std_logic;
+		R0in : out std_logic;
+		R1in : out std_logic;
+		R2in : out std_logic;
+		R3in : out std_logic;
+		R4in : out std_logic;
+		R5in : out std_logic;
+		R6in : out std_logic;
+		R7in : out std_logic;
+		R8in : out std_logic;
+		R9in : out std_logic;
+		R10in : out std_logic;
+		R11in : out std_logic;
+		R12in : out std_logic;
+		R13in : out std_logic;
+		R14in : out std_logic;
+		R15in : out std_logic;
+		c_sign_extended : out std_logic_vector(31 downto 0)
+	);
+end entity;
+
+architecture behaviour of select_and_encode is
+
+signal opcode : std_logic_vector(4 downto 0);
+signal ra : std_logic_vector(3 downto 0);
+signal rb : std_logic_vector(3 downto 0);
+signal rc : std_logic_vector(3 downto 0);
+signal s : std_logic;
+signal sign_vector : std_logic_vector(12 downto 0);
+signal decoderOut : std_logic_vector(15 downto 0);
+
+begin
+
+opcode <= IRin(31 downto 27);
+ra <= IRin(26 downto 23);
+rb <= IRin(22 downto 19);
+rc <= IRin(18 downto 15);
+s <= Rout OR BAout;
+sign_vector <= (others => IRin(18));
+
+	process(opcode, ra, rb, rc, s, sign_vector)
+	variable Gra_vect, Grb_vect, Grc_vect, s1, s2, s3, s4 : std_logic_vector(3 downto 0);
+		begin
+		Gra_vect := (others => Gra); Grb_vect := (others => Grb); Grc_vect := (others => Grc);
+		s1 := ra AND Gra_vect; s2 := rb AND Grb_vect; s3 := rc AND Grc_vect;
+		s4 := s1 OR s2 OR s3;
+		if(s4 = "0000") then
+			decoderOut <= x"0001";
+		elsif(s4 = "0001") then
+			decoderOut <= x"0002";
+		elsif(s4 = "0010") then
+			decoderOut <= x"0004";
+		elsif(s4 = "0011") then
+			decoderOut <= x"0008";
+		elsif(s4 = "0100") then
+			decoderOut <= x"0010";
+		elsif(s4 = "0101") then
+			decoderOut <= x"0020";
+		elsif(s4 = "0110") then
+			decoderOut <= x"0040";
+		elsif(s4 = "0111") then
+			decoderOut <= x"0080";
+		elsif(s4 = "1000") then
+			decoderOut <= x"0100";
+		elsif(s4 = "1001") then
+			decoderOut <= x"0200";
+		elsif(s4 = "1010") then
+			decoderOut <= x"0400";
+		elsif(s4 = "1011") then
+			decoderOut <= x"0800";
+		elsif(s4 = "1100") then
+			decoderOut <= x"1000";
+		elsif(s4 = "1101") then
+			decoderOut <= x"2000";
+		elsif(s4 = "1110") then
+			decoderOut <= x"4000";
+		elsif(s4 = "1111") then
+			decoderOut <= x"8000";
+		else
+			decoderOut <= "ZZZZZZZZZZZZZZZZ";
+		end if;
+	end process;
+R0in <= decoderOut(0) AND Rin;
+R0out <= decoderOut(0) AND s;
+
+R1in <= decoderOut(1) AND Rin;
+R1out <= decoderOut(1) AND s;
+
+R2in <= decoderOut(2) AND Rin;
+R2out <= decoderOut(2) AND s;
+
+R3in <= decoderOut(3) AND Rin;
+R3out <= decoderOut(3) AND s;
+
+R4in <= decoderOut(4) AND Rin;
+R4out <= decoderOut(4) AND s;
+
+R5in <= decoderOut(5) AND Rin;
+R5out <= decoderOut(5) AND s;
+
+R6in <= decoderOut(6) AND Rin;
+R6out <= decoderOut(6) AND s;
+
+R7in <= decoderOut(7) AND Rin;
+R7out <= decoderOut(7) AND s;
+
+R8in <= decoderOut(8) AND Rin;
+R8out <= decoderOut(8) AND s;
+
+R9in <= decoderOut(9) AND Rin;
+R9out <= decoderOut(9) AND s;
+
+R10in <= decoderOut(10) AND Rin;
+R10out <= decoderOut(10) AND s;
+
+R11in <= decoderOut(11) AND Rin;
+R11out <= decoderOut(11) AND s;
+
+R12in <= decoderOut(12) AND Rin;
+R12out <= decoderOut(12) AND s;
+
+R13in <= decoderOut(13) AND Rin;
+R13out <= decoderOut(13) AND s;
+
+R14in <= decoderOut(14) AND Rin;
+R14out <= decoderOut(14) AND s;
+
+R15in <= decoderOut(15) AND Rin;
+R15out <= decoderOut(15) AND s;
+
+c_sign_extended(31 downto 19) <= sign_vector;
+c_sign_extended(18 downto 0) <= IRin(18 downto 0);
+end architecture;

@@ -1,0 +1,1264 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Mattias Blum\Dropbox\lab1\ModelSim testing
+Ealu
+Z0 w1585936799
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\Queen's University\ELEC374\CPU Project\Phase 1\ModelSim
+Z6 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu.vhd
+Z7 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu.vhd
+l0
+L5
+VY>;jg;<MMSTM6[Mf8ff7n1
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1585939604.292000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu.vhd|
+Z11 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 3N0<2G?R_UK72^0aPd@eM1
+!i10b 1
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 Y>;jg;<MMSTM6[Mf8ff7n1
+l81
+L15
+VUA^[VI8z]@0BkBlieAJ>]1
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 B8=C^X@O_E?gSBNePQ=TJ3
+!i10b 1
+Ealu_addr_encoder
+Z14 w1585934512
+R3
+R4
+R5
+Z15 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu_addr_encoder.vhd
+Z16 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu_addr_encoder.vhd
+l0
+L4
+VlcY2nC:Ami2TWmI=hWKHZ1
+R8
+32
+Z17 !s108 1585939604.493000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu_addr_encoder.vhd|
+Z19 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/alu_addr_encoder.vhd|
+R12
+R13
+!s100 @OnB;F[GR>_Ud94zK>V[o0
+!i10b 1
+Abehavior
+R3
+R4
+DEx4 work 16 alu_addr_encoder 0 22 lcY2nC:Ami2TWmI=hWKHZ1
+l26
+L21
+V<>`KSJCO>zL]86@3YU^V13
+R8
+32
+R17
+R18
+R19
+R12
+R13
+!s100 NfaYNc6[7?C^h94deM>R[1
+!i10b 1
+Ebidirectional_bus
+Z20 w1583256146
+R3
+R4
+R5
+Z21 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/bidirectional_bus.vhd
+Z22 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/bidirectional_bus.vhd
+l0
+L24
+V6Cm>[^H]L1`mgJbQoY[VH0
+R8
+32
+Z23 !s108 1585939604.762000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/bidirectional_bus.vhd|
+Z25 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/bidirectional_bus.vhd|
+R12
+R13
+!s100 TSPadmT;1:ABN^bObGbPn3
+!i10b 1
+Abdf_type
+R3
+R4
+DEx4 work 17 bidirectional_bus 0 22 6Cm>[^H]L1`mgJbQoY[VH0
+l172
+L79
+VgGTW8`c8J]S]gc1X?L[PX1
+R8
+32
+R23
+R24
+R25
+R12
+R13
+!s100 C2CeKN`jjf<V:HeS6j]ER2
+!i10b 1
+Ecl_addr
+Z26 w1582592257
+R1
+R2
+R3
+R4
+R5
+Z27 8D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/cl_addr.vhd
+Z28 FD:/Queen's University/ELEC374/CPU Project/Phase 1/logic/cl_addr.vhd
+l0
+L5
+V1W7zUdc2A:GfI<U8WKQ=W0
+R8
+32
+Z29 !s108 1585939608.085000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/cl_addr.vhd|
+Z31 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/cl_addr.vhd|
+R12
+R13
+!s100 XFXCKGbLNAoX`AKGgJcNZ2
+!i10b 1
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 7 cl_addr 0 22 1W7zUdc2A:GfI<U8WKQ=W0
+l22
+L15
+VKFgz`;_7HaBY6g1zP5j@m3
+R8
+32
+R29
+R30
+R31
+R12
+R13
+!s100 ko]=HOFJVl@zgzhkEhmUS2
+!i10b 1
+Edatapath
+Z32 w1585924343
+R3
+R4
+R5
+Z33 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/datapath.vhd
+Z34 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/datapath.vhd
+l0
+L24
+Vj`>Pf_I]4ReOM=bb9^YWM1
+R8
+32
+Z35 !s108 1585939605.054000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/datapath.vhd|
+Z37 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/datapath.vhd|
+R12
+R13
+!s100 `>dH97aWKkRkAiBVDLk9O0
+!i10b 1
+Abdf_type
+R3
+R4
+DEx4 work 8 datapath 0 22 j`>Pf_I]4ReOM=bb9^YWM1
+l320
+L102
+V7iU;lY79C3WiJgeR]TbCF2
+R8
+32
+R35
+R36
+R37
+R12
+R13
+!s100 o^_4M7XETJBdo<<fFic0a0
+!i10b 1
+Edatapath_tb
+Z38 w1585923962
+R3
+R4
+R5
+Z39 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/datapath_tb.vhd
+Z40 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/datapath_tb.vhd
+l0
+L6
+VjU@h5VU82NXIh`d0gFRL:1
+R8
+32
+Z41 !s108 1585939610.898000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/datapath_tb.vhd|
+Z43 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/datapath_tb.vhd|
+R12
+R13
+!s100 Sl@X3^kNLgmZ_KVcGNn460
+!i10b 1
+Adatapath_tb_arch
+R3
+R4
+DEx4 work 11 datapath_tb 0 22 jU@h5VU82NXIh`d0gFRL:1
+l99
+L10
+Vk8oT:=CjGQQkJCzk>RC_E2
+R8
+32
+R41
+R42
+R43
+R12
+R13
+!s100 @<GR5Nk:`3e=>ja=CkGJC1
+!i10b 1
+Edivider
+Z44 w1583164200
+R1
+R2
+Z45 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R3
+R4
+R5
+Z46 8D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/divider.vhd
+Z47 FD:/Queen's University/ELEC374/CPU Project/Phase 1/logic/divider.vhd
+l0
+L6
+V5B0Tg3bV[bAAZ`QY=Ka7d2
+R8
+32
+Z48 !s108 1585939608.349000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/divider.vhd|
+Z50 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/divider.vhd|
+R12
+R13
+!s100 AMlmEB:b0iPS>dR8dY0`F3
+!i10b 1
+Abehaviour
+R1
+R2
+R45
+R3
+R4
+DEx4 work 7 divider 0 22 5B0Tg3bV[bAAZ`QY=Ka7d2
+l16
+L15
+VCNlRQ7VzHS857GoYCZ:1z2
+R8
+32
+R48
+R49
+R50
+R12
+R13
+!s100 >;WbJXS24:CH07KVKOL:10
+!i10b 1
+Eencoder_32to5
+Z51 w1585887771
+R3
+R4
+R5
+Z52 8D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/encoder_32to5.vhd
+Z53 FD:/Queen's University/ELEC374/CPU Project/Phase 1/logic/encoder_32to5.vhd
+l0
+L4
+V1So?eAJT5`@4M_XL7:ZJz0
+R8
+32
+Z54 !s108 1585939608.713000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/encoder_32to5.vhd|
+Z56 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/encoder_32to5.vhd|
+R12
+R13
+!s100 mk92`i]YkJc^3;EJQ[NR<0
+!i10b 1
+Abehavior
+R3
+R4
+DEx4 work 13 encoder_32to5 0 22 1So?eAJT5`@4M_XL7:ZJz0
+l51
+L46
+VL1bhLI:mlWBUzG^WKA:[C0
+R8
+32
+R54
+R55
+R56
+R12
+R13
+!s100 ehja_5iMhdf^?Jh7We]UC3
+!i10b 1
+Egp
+Z57 w1581236274
+R3
+R4
+R5
+Z58 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/gp.vhd
+Z59 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/gp.vhd
+l0
+L24
+VJz<]5cgDKJ8`^2?[a5cHR1
+R8
+32
+Z60 !s108 1585939605.353000
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/gp.vhd|
+Z62 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/gp.vhd|
+R12
+R13
+!s100 CokBcUi17Td<6F_FgVmL<2
+!i10b 1
+Abdf_type
+R3
+R4
+DEx4 work 2 gp 0 22 Jz<]5cgDKJ8`^2?[a5cHR1
+l78
+L65
+VW[DR_39hc_i<CiVTeZc9c0
+R8
+32
+R60
+R61
+R62
+R12
+R13
+!s100 YA5Y^ciL=K12OeRAWei7<3
+!i10b 1
+Ehi
+Z63 w1581227914
+R3
+R4
+R5
+Z64 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/hi.vhd
+Z65 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/hi.vhd
+l0
+L24
+V5THDiZ?]^?]OhFWc2Y96S3
+R8
+32
+Z66 !s108 1585939605.659000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/hi.vhd|
+Z68 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/hi.vhd|
+R12
+R13
+!s100 C;Nhn9V02dW63CPg>^2;`1
+!i10b 1
+Abdf_type
+R3
+R4
+DEx4 work 2 hi 0 22 5THDiZ?]^?]OhFWc2Y96S3
+l48
+L35
+VSFh>Yak7l:n9:H6VUgMNS1
+R8
+32
+R66
+R67
+R68
+R12
+R13
+!s100 5?iFhR=0gZ;bS@4X`ZBU82
+!i10b 1
+Eincrementer
+R26
+R1
+R2
+R3
+R4
+R5
+Z69 8D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/incrementer.vhd
+Z70 FD:/Queen's University/ELEC374/CPU Project/Phase 1/logic/incrementer.vhd
+l0
+L7
+VLAMd3AnBBl5o9XjI^iGT72
+R8
+32
+Z71 !s108 1585939609.015000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/incrementer.vhd|
+Z73 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/incrementer.vhd|
+R12
+R13
+!s100 XA:hml;oW9ai?]@HBlUhz2
+!i10b 1
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 11 incrementer 0 22 LAMd3AnBBl5o9XjI^iGT72
+l29
+L17
+V;W@SPFl:d1[RzdA;nbKi]2
+R8
+32
+R71
+R72
+R73
+R12
+R13
+!s100 VoS<eV1gh_Ao=D34P0^M;1
+!i10b 1
+Elo
+Z74 w1581227878
+R3
+R4
+R5
+Z75 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/lo.vhd
+Z76 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/lo.vhd
+l0
+L24
+VJ=ZKZ>K[8EQ=0f^AcMZW=1
+R8
+32
+Z77 !s108 1585939606.008000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/lo.vhd|
+Z79 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/lo.vhd|
+R12
+R13
+!s100 L<`go_g6zzhh5G@jQM:Wl0
+!i10b 1
+Abdf_type
+R3
+R4
+DEx4 work 2 lo 0 22 J=ZKZ>K[8EQ=0f^AcMZW=1
+l48
+L35
+V;EeC;jD;6AV6c=?dGT=`50
+R8
+32
+R77
+R78
+R79
+R12
+R13
+!s100 >;]YDMLG;>O@Fok<l7oe`2
+!i10b 1
+Emar
+R26
+R3
+R4
+R5
+Z80 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mar.vhd
+Z81 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mar.vhd
+l0
+L24
+VDIH5F3Y`HN;AIhbz`aU253
+R8
+32
+Z82 !s108 1585939606.250000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mar.vhd|
+Z84 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mar.vhd|
+R12
+R13
+!s100 fca7X4d>k;o=zldJbV9^93
+!i10b 1
+Abdf_type
+R3
+R4
+DEx4 work 3 mar 0 22 DIH5F3Y`HN;AIhbz`aU253
+l48
+L35
+V:J?WJ4F=Ho3fV`ISm5j^m1
+R8
+32
+R82
+R83
+R84
+R12
+R13
+!s100 NzaTofFiYHme``QLCk_fD1
+!i10b 1
+Emdr
+Z85 w1585885639
+R3
+R4
+R5
+Z86 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mdr.vhd
+Z87 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mdr.vhd
+l0
+L24
+VbUZD`nMeXhfYb<_d]<O_i0
+R8
+32
+Z88 !s108 1585939606.542000
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mdr.vhd|
+Z90 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/mdr.vhd|
+R12
+R13
+!s100 XBKAkU5zkhF97O`B`QRXc0
+!i10b 1
+Abdf_type
+R3
+R4
+DEx4 work 3 mdr 0 22 bUZD`nMeXhfYb<_d]<O_i0
+l61
+L38
+VUSoDgY]alidVDH4h_mz=n1
+R8
+32
+R88
+R89
+R90
+R12
+R13
+!s100 KW064fWRRZCE8=]]Lfn4L2
+!i10b 1
+Emultiplier
+Z91 w1585867985
+R1
+R2
+R45
+R3
+R4
+R5
+Z92 8D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/multiplier.vhd
+Z93 FD:/Queen's University/ELEC374/CPU Project/Phase 1/logic/multiplier.vhd
+l0
+L6
+V:5[InDVbXFXZ;CiLDf9>51
+R8
+32
+Z94 !s108 1585939609.411000
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/multiplier.vhd|
+Z96 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/multiplier.vhd|
+R12
+R13
+!s100 ^4PbW>g_F=BCCn4CfG=I90
+!i10b 1
+Abehaviour
+R1
+R2
+R45
+R3
+R4
+DEx4 work 10 multiplier 0 22 :5[InDVbXFXZ;CiLDf9>51
+l15
+L14
+VO?`Z<FUS;4]T9FHjN85Ng0
+R8
+32
+R94
+R95
+R96
+R12
+R13
+!s100 zF]D3@EjQekQg[N<lOe;93
+!i10b 1
+Emux2to1_32
+R26
+R1
+R2
+R3
+R4
+R5
+Z97 8D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux2to1_32.vhd
+Z98 FD:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux2to1_32.vhd
+l0
+L7
+VeEm_d5IJC@<J?CWUL@ik`3
+R8
+32
+Z99 !s108 1585939609.721000
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux2to1_32.vhd|
+Z101 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux2to1_32.vhd|
+R12
+R13
+!s100 1ch`?lU4?=W:UccL7WN=^1
+!i10b 1
+Amux2to1_32_arch
+R1
+R2
+R3
+R4
+DEx4 work 10 mux2to1_32 0 22 eEm_d5IJC@<J?CWUL@ik`3
+l20
+L19
+V;I9=NaN?BUN6_h37jVbYi0
+R8
+32
+R99
+R100
+R101
+R12
+R13
+!s100 MhlzM7@hf?SzOXnXgMjfJ2
+!i10b 1
+Emux32to1_32
+R26
+R1
+R2
+R3
+R4
+R5
+Z102 8D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux32to1_32.vhd
+Z103 FD:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux32to1_32.vhd
+l0
+L7
+Va]JGo;gD0]nnE;>43Ia030
+R8
+32
+Z104 !s108 1585939610.068000
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux32to1_32.vhd|
+Z106 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/mux32to1_32.vhd|
+R12
+R13
+!s100 P;iiZh@X;fffJXT^XK66n2
+!i10b 1
+Amux32to1_32_arch
+R1
+R2
+R3
+R4
+DEx4 work 11 mux32to1_32 0 22 a]JGo;gD0]nnE;>43Ia030
+l55
+L52
+V?TCih:]8=Wo9o;n>W8JHQ2
+R8
+32
+R104
+R105
+R106
+R12
+R13
+!s100 UD0k:EI6<UR?<@>E:=SOW2
+!i10b 1
+Enegator
+R26
+R3
+R4
+R5
+Z107 8D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/negator.vhd
+Z108 FD:/Queen's University/ELEC374/CPU Project/Phase 1/logic/negator.vhd
+l0
+L4
+VV8KeRN`eDlKT4I1EXaCZR2
+R8
+32
+Z109 !s108 1585939610.387000
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/negator.vhd|
+Z111 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/negator.vhd|
+R12
+R13
+!s100 6Z1>eKBY^4nRh6B9nf8<O2
+!i10b 1
+Abehavior
+R3
+R4
+DEx4 work 7 negator 0 22 V8KeRN`eDlKT4I1EXaCZR2
+l21
+L11
+Vhc;PnaDk;i<Qd=aLa<7];3
+R8
+32
+R109
+R110
+R111
+R12
+R13
+!s100 YF>kbe=kX5b`SE?VaJjT91
+!i10b 1
+Epc
+Z112 w1585885768
+R3
+R4
+R5
+Z113 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/pc.vhd
+Z114 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/pc.vhd
+l0
+L24
+VI3Nzo`Oc73AVJLOBc[c;I0
+R8
+32
+Z115 !s108 1585939606.829000
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/pc.vhd|
+Z117 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/pc.vhd|
+R12
+R13
+!s100 >dc@EO^ClBIa:H2?;5WMo1
+!i10b 1
+Abdf_type
+R3
+R4
+DEx4 work 2 pc 0 22 I3Nzo`Oc73AVJLOBc[c;I0
+l66
+L36
+V3F=T]417`6]7VM>2e1>ZI2
+R8
+32
+R115
+R116
+R117
+R12
+R13
+!s100 ;BD74]kkPbUhWWF`n:mUH0
+!i10b 1
+Ereg32
+Z118 w1585885191
+R3
+R4
+R5
+Z119 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/reg32.vhd
+Z120 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/reg32.vhd
+l0
+L11
+VTL=Tg]B=_i68d[NUjN]=30
+R8
+32
+Z121 !s108 1585939607.100000
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/reg32.vhd|
+Z123 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/reg32.vhd|
+R12
+R13
+!s100 _5Ho3@`484O`@1R_n9gDg3
+!i10b 1
+Abehavior
+R3
+R4
+DEx4 work 5 reg32 0 22 TL=Tg]B=_i68d[NUjN]=30
+l24
+L23
+V0K5RN_WR8@;2LWPoj4lYb2
+R8
+32
+R121
+R122
+R123
+R12
+R13
+!s100 <VG=PFN><aE_AzLc9kVF33
+!i10b 1
+Eshifter
+Z124 w1585874990
+R45
+R3
+R4
+R5
+Z125 8D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/shifter.vhd
+Z126 FD:/Queen's University/ELEC374/CPU Project/Phase 1/logic/shifter.vhd
+l0
+L6
+VY:8d5d^Z2Meb?JK8oiZQn0
+R8
+32
+Z127 !s108 1585939610.639000
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/shifter.vhd|
+Z129 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/logic/shifter.vhd|
+R12
+R13
+!s100 0hMj^jXbkC4bhJ9RmL58e3
+!i10b 1
+Abehavior
+R45
+R3
+R4
+DEx4 work 7 shifter 0 22 Y:8d5d^Z2Meb?JK8oiZQn0
+l21
+L16
+VJh;oHh@PzaNo>9^GeN6281
+R8
+32
+R127
+R128
+R129
+R12
+R13
+!s100 Cb3clQhm6[TCiXTK2WbJe2
+!i10b 1
+Etb_add
+Z130 w1585932463
+R3
+R4
+R5
+Z131 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_add.vhd
+Z132 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_add.vhd
+l0
+L6
+VdBQ:FQg3U;VLZI<=^Qo401
+R8
+32
+Z133 !s108 1585939611.205000
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_add.vhd|
+Z135 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_add.vhd|
+R12
+R13
+!s100 OP7FbciPB3QMgB76015ib1
+!i10b 1
+Atb_add_arch
+R3
+R4
+DEx4 work 6 tb_add 0 22 dBQ:FQg3U;VLZI<=^Qo401
+l99
+L10
+VA]OoS4C3FeJ5:jVS;<;M=1
+R8
+32
+R133
+R134
+R135
+R12
+R13
+!s100 X1Q^i2Z[4lTj;KkkEo_WV2
+!i10b 1
+Etb_and
+Z136 w1585931919
+R3
+R4
+R5
+Z137 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_and.vhd
+Z138 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_and.vhd
+l0
+L6
+VNzijHC9Z50egQZ57:3^mE0
+R8
+32
+Z139 !s108 1585939611.524000
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_and.vhd|
+Z141 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_and.vhd|
+R12
+R13
+!s100 k_UUT>giXNK8=C:STd9<`3
+!i10b 1
+Atb_and_arch
+R3
+R4
+DEx4 work 6 tb_and 0 22 NzijHC9Z50egQZ57:3^mE0
+l99
+L10
+V=KYH1f[?gn;Yj]D5XZZHd2
+R8
+32
+R139
+R140
+R141
+R12
+R13
+!s100 XNP6YSM0J7K1zbAWFK><P3
+!i10b 1
+Etb_div
+Z142 w1585937485
+R3
+R4
+R5
+Z143 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_div.vhd
+Z144 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_div.vhd
+l0
+L6
+VW1NC1`>fdHMC9X_17iCgY2
+R8
+32
+Z145 !s108 1585939611.856000
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_div.vhd|
+Z147 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_div.vhd|
+R12
+R13
+!s100 CNlUQJVOX<5?d1kXlU2=[2
+!i10b 1
+Atb_div_arch
+R3
+R4
+DEx4 work 6 tb_div 0 22 W1NC1`>fdHMC9X_17iCgY2
+l99
+L10
+VfIi17g@coT_I=_zS7J`Le0
+R8
+32
+R145
+R146
+R147
+R12
+R13
+!s100 79EBd:8z0?j>_RkQ?>77f3
+!i10b 1
+Etb_mul
+Z148 w1585937303
+R3
+R4
+R5
+Z149 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_mul.vhd
+Z150 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_mul.vhd
+l0
+L6
+VTc?ZR2zgz]R:9[Qh2gQC`3
+R8
+32
+Z151 !s108 1585939612.167000
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_mul.vhd|
+Z153 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_mul.vhd|
+R12
+R13
+!s100 _RXb3Uk9l315EVLnjQX4]1
+!i10b 1
+Atb_mul_arch
+R3
+R4
+DEx4 work 6 tb_mul 0 22 Tc?ZR2zgz]R:9[Qh2gQC`3
+l99
+L10
+Vkk9_3n_QJg?mQHjhIMma]0
+R8
+32
+R151
+R152
+R153
+R12
+R13
+!s100 f8Y3K7`h6aA:`3d>lkjPd3
+!i10b 1
+Etb_neg
+Z154 w1585939601
+R3
+R4
+R5
+Z155 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_neg.vhd
+Z156 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_neg.vhd
+l0
+L6
+ViK0z:Y7gP8G]S8^_`aRZ11
+R8
+32
+Z157 !s108 1585939612.466000
+Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_neg.vhd|
+Z159 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_neg.vhd|
+R12
+R13
+!s100 :58ecX`P:Ia@RUglKKJ:>1
+!i10b 1
+Atb_neg_arch
+R3
+R4
+DEx4 work 6 tb_neg 0 22 iK0z:Y7gP8G]S8^_`aRZ11
+l99
+L10
+V9lkh^1D@e6=aY<E]]gH440
+R8
+32
+R157
+R158
+R159
+R12
+R13
+!s100 EYeDYa9OITdAA^D[;4Z4D1
+!i10b 1
+Etb_not
+Z160 w1585939181
+R3
+R4
+R5
+Z161 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_not.vhd
+Z162 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_not.vhd
+l0
+L6
+V=e6Gjz4BW_>>[D6B[VBU=1
+R8
+32
+Z163 !s108 1585939612.724000
+Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_not.vhd|
+Z165 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_not.vhd|
+R12
+R13
+!s100 fK_<LVX07MGSn0aV;ED8@0
+!i10b 1
+Atb_not_arch
+R3
+R4
+DEx4 work 6 tb_not 0 22 =e6Gjz4BW_>>[D6B[VBU=1
+l99
+L10
+Vj:Mh_K64z>aTFUL9[e]QE3
+R8
+32
+R163
+R164
+R165
+R12
+R13
+!s100 ]WzK=cL6QZ`HkRT6zD<4g2
+!i10b 1
+Etb_or
+Z166 w1585930600
+R3
+R4
+R5
+Z167 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_or.vhd
+Z168 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_or.vhd
+l0
+L6
+VbYBNCFo62:UX6giUkNLGn0
+R8
+32
+Z169 !s108 1585939612.995000
+Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_or.vhd|
+Z171 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_or.vhd|
+R12
+R13
+!s100 ELbM53k63X0FBjBjSkFdG1
+!i10b 1
+Atb_or_arch
+R3
+R4
+DEx4 work 5 tb_or 0 22 bYBNCFo62:UX6giUkNLGn0
+l99
+L10
+VYgQY=:_<l[knER9U`3P8A3
+R8
+32
+R169
+R170
+R171
+R12
+R13
+!s100 lUPR_oJAFj49j15W_jX]32
+!i10b 1
+Etb_rol
+Z172 w1585930554
+R3
+R4
+R5
+Z173 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_rol.vhd
+Z174 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_rol.vhd
+l0
+L6
+VIP7`2J=6XDPDPeKYQfe^J1
+R8
+32
+Z175 !s108 1585939613.308000
+Z176 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_rol.vhd|
+Z177 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_rol.vhd|
+R12
+R13
+!s100 bV@c^?jHOJ?b_>16UAOG63
+!i10b 1
+Atb_rol_arch
+R3
+R4
+DEx4 work 6 tb_rol 0 22 IP7`2J=6XDPDPeKYQfe^J1
+l99
+L10
+V[a9QcjgTWF^4CWm2N1=YF0
+R8
+32
+R175
+R176
+R177
+R12
+R13
+!s100 ej>G[9HddWUin@cIPQY[41
+!i10b 1
+Etb_ror
+Z178 w1585930382
+R3
+R4
+R5
+Z179 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_ror.vhd
+Z180 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_ror.vhd
+l0
+L6
+V3c]Xm^D^jRzh=hlYJ0mea2
+R8
+32
+Z181 !s108 1585939614.915000
+Z182 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_ror.vhd|
+Z183 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_ror.vhd|
+R12
+R13
+!s100 izKC_zNK:>GIdR`W2bIGd3
+!i10b 1
+Atb_ror_arch
+R3
+R4
+DEx4 work 6 tb_ror 0 22 3c]Xm^D^jRzh=hlYJ0mea2
+l99
+L10
+VNz;POOQbFS7d;EDGBS]4j1
+R8
+32
+R181
+R182
+R183
+R12
+R13
+!s100 7<b87:O^zQ>5P:FS92kPQ1
+!i10b 1
+Etb_shl
+Z184 w1585930347
+R3
+R4
+R5
+Z185 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shl.vhd
+Z186 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shl.vhd
+l0
+L6
+V3z72dI7N]S6ZlRFoXeOZb1
+R8
+32
+Z187 !s108 1585939615.303000
+Z188 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shl.vhd|
+Z189 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shl.vhd|
+R12
+R13
+!s100 ^RGL@4lVa1jn?48iQ`5=f2
+!i10b 1
+Atb_shl_arch
+R3
+R4
+DEx4 work 6 tb_shl 0 22 3z72dI7N]S6ZlRFoXeOZb1
+l99
+L10
+VOO<QHhSTamcol3bzPPHH@2
+R8
+32
+R187
+R188
+R189
+R12
+R13
+!s100 aS:V2[HlAoO;e6i44C4m@2
+!i10b 1
+Etb_shr
+Z190 w1585934997
+R3
+R4
+R5
+Z191 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shr.vhd
+Z192 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shr.vhd
+l0
+L6
+V66_cb3AbRPdOf[Aab59Yj0
+R8
+32
+Z193 !s108 1585939615.638000
+Z194 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shr.vhd|
+Z195 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_shr.vhd|
+R12
+R13
+!s100 Ef:ATLn:d6IP]NSUFkgf_0
+!i10b 1
+Atb_shr_arch
+R3
+R4
+DEx4 work 6 tb_shr 0 22 66_cb3AbRPdOf[Aab59Yj0
+l99
+L10
+VC0]lae9Xf5AVo_DGcBQk[2
+!s100 Db0I]:IV8iNMPbL^;P]hB2
+R8
+32
+R193
+R194
+R195
+R12
+R13
+!i10b 1
+Etb_sub
+Z196 w1585932996
+R3
+R4
+R5
+Z197 8D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_sub.vhd
+Z198 FD:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_sub.vhd
+l0
+L6
+VRGLiUA74PHXBZSnBRAdja0
+!s100 a^f@R6gPR;FXEkejITZCo2
+R8
+32
+!i10b 1
+Z199 !s108 1585939615.898000
+Z200 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_sub.vhd|
+Z201 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/testbenches/tb_sub.vhd|
+R12
+R13
+Atb_sub_arch
+R3
+R4
+Z202 DEx4 work 6 tb_sub 0 22 RGLiUA74PHXBZSnBRAdja0
+l99
+L10
+Z203 VTcDX[hG5NWm]OT=j@Hmzo1
+Z204 !s100 TR=n;cI7D6F>V6WK87h_=0
+R8
+32
+!i10b 1
+R199
+R200
+R201
+R12
+R13
+Ey
+Z205 w1581231696
+R3
+R4
+R5
+Z206 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/y.vhd
+Z207 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/y.vhd
+l0
+L24
+V2=9933C:ojV3PziL3><[E2
+R8
+32
+Z208 !s108 1585939607.521000
+Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/y.vhd|
+Z210 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/y.vhd|
+R12
+R13
+!s100 kHg]nLkOa7nLcbKEMVKI83
+!i10b 1
+Abdf_type
+R3
+R4
+DEx4 work 1 y 0 22 2=9933C:ojV3PziL3><[E2
+l48
+L35
+VoUI[GXIRQhELSY2AKP:>[0
+R8
+32
+R208
+R209
+R210
+R12
+R13
+!s100 B3ea]e5[SHMZ8PiEG;N^a3
+!i10b 1
+Ez
+Z211 w1585892524
+R3
+R4
+R5
+Z212 8D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/z.vhd
+Z213 FD:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/z.vhd
+l0
+L24
+V@;^k>@bPlfCcTFPGTBY^]3
+R8
+32
+Z214 !s108 1585939607.809000
+Z215 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/z.vhd|
+Z216 !s107 D:/Queen's University/ELEC374/CPU Project/Phase 1/functional units/z.vhd|
+R12
+R13
+!s100 gTVgS]EQG58DBHM:^281a1
+!i10b 1
+Abdf_type
+R3
+R4
+DEx4 work 1 z 0 22 @;^k>@bPlfCcTFPGTBY^]3
+l48
+L37
+V:YMXkc5C?X_dzhnkH_gRJ2
+R8
+32
+R214
+R215
+R216
+R12
+R13
+!s100 Z]o>6h>0]MTBOU<Id0V712
+!i10b 1
